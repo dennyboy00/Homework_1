@@ -1,0 +1,257 @@
+body{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(116, 12, 212);
+    font-weight:bold;
+    background-color: silver
+}
+
+#logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+
+header{
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+  
+    
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding: 20px;
+    margin-bottom: 80px;
+    
+}
+
+nav #esc{
+    margin-left:600px;
+    padding: 15px;
+}
+
+.links a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .links {
+      display: none;
+    }
+  }
+
+  #menu {
+    display: none;
+  }
+  
+  #menu div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 500px) {
+    #menu {
+      display: block;
+    }
+  }
+
+
+#login_btn{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: blueviolet;
+    font-weight: bold;
+    font-size:20px;
+    color:gold;
+}
+
+#esc{
+    border-radius: 50px;
+    background-color:cadetblue;
+    font-weight: bold;
+    font-size: 20px;
+    color: bisque;
+}
+
+h2{
+    padding: 20px;
+    margin-bottom:100px;
+    font: medium;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 1;
+}
+
+@media (max-width: 500px) {
+    header h1 {
+      font-size: 1.5em;
+      padding: 0 20px;
+    }
+  }
+
+#title{
+font-weight:bolder;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: 15px;
+font-size: 22px;
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+@media (max-width: 500px) {
+    .box{
+      height: auto;
+      flex-direction: column;
+    }
+
+}
+
+.res{
+    font-size: 18px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+#contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+}
+
+.empty{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+  height: 40%;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.empty p{
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.movie{
+    display:flex;
+    flex-direction: row;
+    height:30%;
+    padding:20px;
+    margin:20px;
+}
+
+
+.movie:hover{
+    cursor:move;
+    background-color: rgb(164, 164, 238);
+}
+
+.poster{
+    display: flex;
+    flex-direction: column;
+}
+
+.movie_title{
+    max-height: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+h3{
+    font-size: 16px;
+    margin-top: 15px;
+    text-overflow: ellipsis;
+}
+
+img{
+
+    width: 100%;
+    max-width: 200px;
+   
+}
+
+.delete_icon{
+height:40px;
+width:40px;
+position: absolute;
+margin-left:120px;
+border:none;
+background:rgba(233, 24, 24, 0.3) url(close.svg) 10px 10px no-repeat;
+background-size: 20px 20px;
+}
+
+.delete{
+margin-left: 40px;
+box-shadow: none;
+position: absolute;
+width:50px;
+}
+
+footer{
+    height:auto;
+    width: 100%;
+    background-color: black;
+    color: blueviolet;
+    padding: 20px;
+    margin:0;
+}
+
+footer span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer_container{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+    .footer_container {
+      flex-direction: column;
+      height: auto;
+    }
+  }
+  
+
+@media (max-width: 500px) {
+    footer span {
+      margin: 0 25px;
+    }
+  }
+
+
+
+
+
+
+
